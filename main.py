@@ -90,8 +90,9 @@ if (k != 0):
   for i in k[-1][:-1]:
     print(round(i,acc[0]),end="")
   print()
-  for i in range(len(k)):
+  for i in range(len(k)-1):
     print(round(k[i][-1],acc[0]), end = " ")
+
   print()
   print("-----------------------------------")
 k = Simplex(Table2)
@@ -100,5 +101,5 @@ if (k != 0):
   for i in k[-1][:-1]:
     print(round(i,acc[0]),end="")
   print()
-  for i in range(len(k)):
+  for i in range(len(k)-1):
     print(round(k[i][-1],acc[0]), end = " ")
